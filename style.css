@@ -12,3 +12,8 @@ html {
 h1 {
     border-bottom: #3A6B35 1px solid;
 }
+
+hr {
+    border-color: #3A6B35;
+    border-width: 1px;
+}
