@@ -8,3 +8,7 @@ body {
 html {
     background-color: #E3B448;
 }
+
+h1 {
+    border-bottom: #3A6B35 1px solid;
+}
