@@ -3,6 +3,7 @@ body {
     border: #3A6B35 3px solid;
     margin: 1% 10% 1% 10%;
     padding: 2% 1% 2% 1%;
+    font-family: sans-serif;
 }
 
 html {
@@ -12,6 +13,15 @@ html {
 h1 {
     margin-top: 30px;
     border-bottom: #3A6B35 1px solid;
+    font-size: 2em;
+    font-family: serif;
+    font-weight: normal;
+    text-align: center;
+}
+
+h2 {
+    color:  #3A6B35;
+    font-size: 1em;
 }
 
 hr {
@@ -24,4 +34,8 @@ footer {
     font-size: 0.7em;
     margin-bottom: 10px;
     font-weight: lighter;
+}
+
+strong {
+    color:  #3A6B35;
 }
