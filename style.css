@@ -18,3 +18,10 @@ hr {
     border-color: #3A6B35;
     border-width: 1px;
 }
+
+footer {
+    color: grey;
+    font-size: 0.7em;
+    margin-bottom: 10px;
+    font-weight: lighter;
+}
