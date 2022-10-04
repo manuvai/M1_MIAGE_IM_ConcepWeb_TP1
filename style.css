@@ -48,3 +48,9 @@ strong {
     font-weight: lighter;
     font-variant-caps: small-caps;
 }
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
