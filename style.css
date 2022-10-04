@@ -43,3 +43,8 @@ strong {
 .ville {
     font-weight: bold;
 }
+
+.poste {
+    font-weight: lighter;
+    font-variant-caps: small-caps;
+}
