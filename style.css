@@ -69,3 +69,7 @@ a:hover {
     background-color: #E3B448;
     color:  #3A6B35;
 }
+
+h2 + p:first-letter {
+    font-size: 2em;
+}
