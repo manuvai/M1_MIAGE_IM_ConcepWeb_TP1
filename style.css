@@ -64,3 +64,8 @@ strong {
     width: 200px;
     height: 200px;
 }
+
+a:hover {
+    background-color: #E3B448;
+    color:  #3A6B35;
+}
