@@ -64,6 +64,19 @@ strong {
 .destination-logo {
     width: 200px;
     height: 200px;
+    animation: transform 0.5s;
+    filter: brightness(50%);
+}
+.destination-logo:hover {
+    animation: destination-logo-rotation 0.5s;
+}
+
+@keyframes destination-logo-rotation {
+    from {}
+    to {
+        box-shadow: 4px solid #3A6B35;
+        transform: rotateZ(10deg);
+    }
 }
 
 a:hover {
