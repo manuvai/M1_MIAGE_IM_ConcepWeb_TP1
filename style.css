@@ -66,17 +66,24 @@ strong {
     height: 200px;
     animation: transform 0.5s;
     filter: brightness(50%);
+    border-radius: 16px;
 }
 .destination-logo:hover {
-    animation: destination-logo-rotation 0.5s;
+    animation: destination-logo-rotation 1s;
 }
 
 @keyframes destination-logo-rotation {
-    from {}
-    to {
+    0% {}
+    50% {
+        filter: brightness(100%);
         box-shadow: 4px solid #3A6B35;
         transform: rotateZ(10deg);
+        width: 220px;
+        height: 220px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
+    100% {}
 }
 
 a:hover {
